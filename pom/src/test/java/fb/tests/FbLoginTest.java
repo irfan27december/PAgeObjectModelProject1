@@ -1,10 +1,12 @@
 package fb.tests;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
 import fb.pages.FbHomePage;
 import fb.pages.FbLoginPage;
 public class FbLoginTest extends TestBase{
+	
 	@Test
 	public void init() throws Exception{
 		//driver.get("https://www.facebook.com");
@@ -13,9 +15,7 @@ public class FbLoginTest extends TestBase{
 		loginpage.setPassword("MIA@27dec");
 		loginpage.clickOnLoginButton();
 		FbHomePage homepage = PageFactory.initElements(driver, FbHomePage.class);
-		driver.navigate().refresh();
 		homepage.clickOnProfileDropdown();
-		//homepage.verifyLoggedInUserNameText();
 		homepage.clickOnLogoutLink();
 	}
 }
