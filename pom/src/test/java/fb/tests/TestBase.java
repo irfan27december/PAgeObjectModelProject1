@@ -27,6 +27,8 @@ public class TestBase {
 		//Pass the argument 1 to allow and 2 to block
 		prefs.put("profile.default_content_setting_values.notifications", 2);
 
+		prefs.put("profile.default_content_settings.popups", 0);
+		
 		//Create an instance of ChromeOptions 
 		ChromeOptions options = new ChromeOptions();
 
