@@ -1,8 +1,8 @@
 package fb.tests;
 
-import org.openqa.selenium.Alert;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
+
 import fb.pages.FbHomePage;
 import fb.pages.FbLoginPage;
 public class FbLoginTest extends TestBase{

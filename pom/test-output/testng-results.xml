@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="30601" started-at="2019-10-16T15:37:44Z" finished-at="2019-10-16T15:38:15Z">
+  <suite name="Suite" duration-ms="19512" started-at="2019-10-18T13:42:07Z" finished-at="2019-10-18T13:42:26Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="30601" started-at="2019-10-16T15:37:44Z" finished-at="2019-10-16T15:38:15Z">
+    <test name="Test" duration-ms="19512" started-at="2019-10-18T13:42:07Z" finished-at="2019-10-18T13:42:26Z">
       <class name="fb.tests.FbLoginTest">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:fb.tests.FbLoginTest@3532ec19]" name="initialize" is-config="true" duration-ms="30049" started-at="2019-10-16T21:07:14Z" finished-at="2019-10-16T21:07:44Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:fb.tests.FbLoginTest@3532ec19]" name="initialize" is-config="true" duration-ms="9101" started-at="2019-10-18T19:11:57Z" finished-at="2019-10-18T19:12:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="init()[pri:0, instance:fb.tests.FbLoginTest@3532ec19]" name="init" duration-ms="30535" started-at="2019-10-16T21:07:44Z" finished-at="2019-10-16T21:08:15Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:fb.tests.FbLoginTest@3532ec19]" name="init" duration-ms="19464" started-at="2019-10-18T19:12:07Z" finished-at="2019-10-18T19:12:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="TeardownTest()[pri:0, instance:fb.tests.FbLoginTest@3532ec19]" name="TeardownTest" is-config="true" duration-ms="2240" started-at="2019-10-16T21:08:16Z" finished-at="2019-10-16T21:08:18Z">
+        <test-method status="PASS" signature="TeardownTest()[pri:0, instance:fb.tests.FbLoginTest@3532ec19]" name="TeardownTest" is-config="true" duration-ms="1078" started-at="2019-10-18T19:12:26Z" finished-at="2019-10-18T19:12:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TeardownTest -->

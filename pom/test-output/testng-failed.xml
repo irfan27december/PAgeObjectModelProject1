@@ -3,13 +3,20 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="fb.tests.FbLoginTest">
+      <class name="li.tests.LinkedInLoginTest">
         <methods>
-          <include name="init"/>
           <include name="TeardownTest"/>
           <include name="initialize"/>
+          <include name="VerifyInvalidLogin" invocation-numbers="0"/>
         </methods>
-      </class> <!-- fb.tests.FbLoginTest -->
+      </class> <!-- li.tests.LinkedInLoginTest -->
+      <class name="util_old.ApachePOIReadExcel">
+        <methods>
+          <include name="tearDown"/>
+          <include name="VerifyInvalidLogin" invocation-numbers="0"/>
+          <include name="testSetup"/>
+        </methods>
+      </class> <!-- util_old.ApachePOIReadExcel -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

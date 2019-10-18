@@ -47,6 +47,7 @@ public class TestBase {
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		//To open facebook
 		driver.get("https://www.facebook.com");
+		//driver.get("https://www.linkedin.com/");
 	}
 	
 	@AfterSuite(alwaysRun=true)
