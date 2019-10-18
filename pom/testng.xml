@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Suite">
-  <test name="Test">
-    <classes>
+<suite name="POM Test Suites">
+  <test name="POM Test Cases">
+    <classes>      
+      <class name="testngclasses.TestNGExample2"/>
+      <class name="testngclasses.TestNGExample1"/>
       <class name="fb.tests.FbLoginTest"/>
     </classes>
   </test> <!-- Test -->
